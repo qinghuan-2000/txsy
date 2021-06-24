@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/trace/trace",
+    "pages/enter/enter",
+    "pages/mine/introduction/introduction",
+    "pages/mine/unhandled/unhandled",
+    "pages/mine/handled/handled",
+    "pages/mine/advice/advice",
+    "pages/mine/knowledge/knowledge"
+  ],
+  "window": {
+    "backgroundColor": "#F8F8F8",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#31CBFA",
+    "navigationBarTitleText": "溯源天下",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
