@@ -1,1 +1,12 @@
-<image src="../../images/trace/logo.png" />
+<view class="box-list">
+  <view class="box-title-row">
+    <view class="box-column1">序号</view>
+    <view class="box-column2">商品序列号</view>
+    <view class="box-column3">操作</view>
+  </view>
+  <view wx:for="{{list}}" wx:key="id" class="box-data-row">
+    <view class="box-column1">{{item.date}}</view>
+    <view class="box-column2">{{item.timeStatr}}-{{item.timeEnd}}</view>
+    <view class="box-column3">{{item.num}}/{{item.countNum}}</view>
+  </view>
+</view>

@@ -27,6 +27,12 @@
         {
           "name": "pages/trace/trace",
           "pathName": "pages/trace/trace",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/enter/enter",
+          "pathName": "pages/enter/enter",
           "scene": null
         }
       ]

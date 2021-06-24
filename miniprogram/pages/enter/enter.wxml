@@ -1,2 +1,30 @@
-<!--pages/enter/enter.wxml-->
-<text>pages/enter/enter.wxml</text>
+<view class="enter-contain">
+  <view class="toolarea">
+    <view class="tool">
+      <image class="image-tool" src="../../images/enter/search.png" />
+      <text class="text-tool">查询</text>
+    </view>
+    <view class="tool">
+      <image class="image-tool" src="../../images/enter/submit.png" />
+      <text class="text-tool">提交订单</text>
+    </view>
+    <view class="tool">
+      <image class="image-tool" src="../../images/enter/clear.png" />
+      <text class="text-tool">清空列表</text>
+    </view>
+  </view>
+  <view class="box-list">
+  <view class="box-title-row">
+    <view class="box-column1">序号</view>
+    <view style="width:8px;"></view>
+    <view class="box-column2">商品序列号</view>
+    <view style="width:8px;"></view>
+    <view class="box-column3">操作</view>
+  </view>
+  <view wx:for="{{list}}" wx:key="id" class="box-data-row">
+    <view class="box-column1">{{item.id}}</view>
+    <view class="box-column2">{{item.number}}</view>
+    <view class="box-column3">查看</view>
+  </view>
+</view>
+</view>

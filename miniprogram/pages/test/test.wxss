@@ -1,7 +1,32 @@
-.circle{
-  width: 400px;
-  height: 400px;
-  border-radius: 200px;
-  background-color:blue ;
-  margin-right: 200px;
+page{
+  background-color: #fff; 
+ }
+
+.box-list .box-title-row{
+  display: flex;
+  font-size: 14px;
+  line-height: 42px;
+  border-bottom: 1px solid #F2F2F2;
+  margin: 0 15rpx;
 }
+.box-list .box-data-row{
+  display: flex;
+  font-size: 12px;
+  line-height: 42px;
+  border-bottom: 1px solid #F2F2F2;
+  margin: 0 15rpx;
+}
+.box-list .box-column1{
+  flex: 0 0 10%;
+  text-align: center;
+}
+.box-list .box-column2{
+  flex: 0 0 60%;
+  text-align: center;
+}
+.box-list .box-column3{
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+ 

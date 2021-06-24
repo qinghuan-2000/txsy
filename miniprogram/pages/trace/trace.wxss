@@ -63,7 +63,7 @@ page {
 
 .describe {
   display: flex;
-  margin-top: 23px;
+  margin-top: 20px;
   color: #646464;
   padding-left: 38px;
   width: 100%;
