@@ -1,8 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/mine/mine",
     "pages/trace/trace",
+    "pages/test/test",
+    "pages/mine/mine",
     "pages/enter/enter",
     "pages/mine/introduction/introduction",
     "pages/mine/unhandled/unhandled",
