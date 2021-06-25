@@ -1,2 +1,59 @@
-<!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class="mine-container">
+  <view class="white">
+  <view wx:if="{{result == 'ok'}}" class="login-box">
+    <image class="avatar" src="{{avatarUrl}}"></image>
+    <view style="width:30px"></view>
+    <view class="nickname">{{nickName}}</view>
+  </view>
+  <!-- 当未授权的时候 -->
+  <view wx:else class="login-box">
+    <image class="avatar" src="../../images/mine/unlogin.png"></image>
+    <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class="but">
+      <text class="butname">授权登录</text>
+    </button>
+    <view style="width:120px"></view>
+
+  </view>
+  <view class="info-pages">
+    <view class="info">
+      <image class="info-icon1" src="../../images/mine/go.png" />
+      <text class="info-text">已发货</text>
+    </view>
+    <view class="line"></view>
+    <view class="info">
+      <image class="info-icon2" src="../../images/mine/ungo.png" />
+      <text class="info-text">已发货</text>
+    </view>
+
+  </view>
+  </view>
+  <view class="tool-pages">
+    <view class="toolpage">
+      <view style="width:25px"></view>
+      <image class="tool-icon" src="../../images/mine/introduction.png" />
+      <view style="width:20px"></view>
+      <text class="tool-text">使用说明</text>
+      <view style="width:190px"></view>
+      <image class="right" src="../../images/mine/right.png" />
+    </view>
+    <view class="toolpage">
+      <view style="width:25px"></view>
+      <image class="tool-icon" src="../../images/mine/knowlogde.png" />
+      <view style="width:20px"></view>
+      <text class="tool-text">溯源原理</text>
+      <view style="width:190px"></view>
+      <image class="right" src="../../images/mine/right.png" />
+    </view>
+    <view class="toolpage">
+      <view style="width:25px"></view>
+      <image class="tool-icon" src="../../images/mine/contact.png" />
+      <view style="width:20px"></view>
+      <text class="tool-text">联系我们</text>
+      <view style="width:190px"></view>
+      <image class="right" src="../../images/mine/right.png" />
+    </view>
+  </view>
+  <view class="bottom-image">
+    <image class="bottom" src="../../images/mine/bottom.png" />
+  </view>
+</view>

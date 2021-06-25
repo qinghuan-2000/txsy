@@ -14,17 +14,22 @@
     </view>
   </view>
   <view class="box-list">
-  <view class="box-title-row">
-    <view class="box-column1">序号</view>
-    <view style="width:8px;"></view>
-    <view class="box-column2">商品序列号</view>
-    <view style="width:8px;"></view>
-    <view class="box-column3">操作</view>
+    <view class="box-title-row">
+      <view class="box-column1">序号</view>
+      <view style="width:8px;"></view>
+      <view class="box-column2">商品序列号</view>
+      <view style="width:8px;"></view>
+      <view class="box-column3">操作</view>
+    </view>
+    <view wx:for="{{list}}" wx:key="id" class="box-data-row">
+      <view class="box-column1">{{item.id}}</view>
+      <view class="box-column2">{{item.number}}</view>
+      <view class="box-column3">查看</view>
+    </view>
   </view>
-  <view wx:for="{{list}}" wx:key="id" class="box-data-row">
-    <view class="box-column1">{{item.id}}</view>
-    <view class="box-column2">{{item.number}}</view>
-    <view class="box-column3">查看</view>
+  <view class="button">
+    <image class="code-image" src="../../images/enter/screen.png" />
+    <view style="width:14px"></view>
+    <view class="code-text">点击扫码</view>
   </view>
-</view>
 </view>

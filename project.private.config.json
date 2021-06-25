@@ -33,6 +33,12 @@
         {
           "name": "pages/enter/enter",
           "pathName": "pages/enter/enter",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
           "scene": null
         }
       ]

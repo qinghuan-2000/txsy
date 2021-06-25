@@ -30,17 +30,9 @@ page {
   height: 35vh;
 }
 
-.allowance {
-  color: #1b1b1a5d;
-  font-weight: 600;
-  font-family: KaiTi;
-  font-size: 40rpx;
-  height: 10vh;
-}
-
 .button1 {
   display: flex;
-  margin-top: 1vh;
+  margin-top: 2vh;
   width: 83vw;
   height: 20vh;
   color: #0808089a;
@@ -51,7 +43,7 @@ page {
 }
 
 .button2 {
-  margin-top: 1vh;
+  margin-top: 2vh;
   margin-bottom: 12vh;
   display: flex;
   width: 83vw;
@@ -66,7 +58,6 @@ page {
 .search {
   width: 30%;
   height: 80%;
-
 }
 
 .select {

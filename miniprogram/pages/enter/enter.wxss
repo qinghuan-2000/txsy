@@ -11,7 +11,7 @@ page {
   background-color: #F5F5F5;
 }
 
-.toolarea{
+.toolarea {
   display: flex;
   width: 100%;
   height: 58px;
@@ -19,7 +19,8 @@ page {
   justify-content: space-between;
   align-items: center;
 }
-.tool{
+
+.tool {
   height: 100%;
   width: 21%;
   display: flex;
@@ -27,19 +28,20 @@ page {
   justify-content: space-around;
   align-items: center;
 }
-.image-tool{
+
+.image-tool {
   width: 24px;
   height: 24px;
 }
 
-.text-tool{
+.text-tool {
   font-size: 10px;
   line-height: 10px;
   font-family: SimSun;
   color: #101010;
 }
 
-.box-list .box-title-row{
+.box-list .box-title-row {
   display: flex;
   justify-content: space-around;
   font-size: 15px;
@@ -48,22 +50,52 @@ page {
   font-weight: 600;
   font-family: SimSun;
 }
-.box-list .box-data-row{
+
+.box-list .box-data-row {
   display: flex;
   font-size: 12px;
   line-height: 42px;
   border-bottom: 1px solid #F2F2F2;
 }
-.box-list .box-column1{
+
+.box-list .box-column1 {
   text-align: center;
-  width: 31px;
+  flex: 0 0 20%;
 
 }
-.box-list .box-column2{
-  text-align: center;
 
+.box-list .box-column2 {
+  text-align: center;
+  flex: 0 0 57%;
 }
-.box-list .box-column3{
-  text-align: center;
 
+.box-list .box-column3 {
+  text-align: center;
+  flex: 0 0 23%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 40px;
+  position: fixed;
+  bottom: 100px;
+  left: 25%;
+  background-color: #31C621;
+  border-radius: 4px;
+}
+
+.code-image{
+  width: 20px;
+  height: 20px;
+}
+
+.code-text{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  font-family: SimSun;
+  color: #F5F5F5;
 }
