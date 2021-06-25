@@ -39,6 +39,24 @@
         {
           "name": "pages/mine/mine",
           "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/introduction/introduction",
+          "pathName": "pages/mine/introduction/introduction",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/knowledge/knowledge",
+          "pathName": "pages/mine/knowledge/knowledge",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/advice/advice",
+          "pathName": "pages/mine/advice/advice",
           "scene": null
         }
       ]

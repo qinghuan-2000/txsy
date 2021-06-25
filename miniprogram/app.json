@@ -1,15 +1,15 @@
 {
   "pages": [
-    "pages/mine/mine",
     "pages/index/index",
+    "pages/mine/advice/advice",
+    "pages/mine/knowledge/knowledge",
+    "pages/mine/introduction/introduction",
+    "pages/mine/mine",
     "pages/enter/enter",
     "pages/trace/trace",
     "pages/test/test",
-    "pages/mine/introduction/introduction",
     "pages/mine/unhandled/unhandled",
-    "pages/mine/handled/handled",
-    "pages/mine/advice/advice",
-    "pages/mine/knowledge/knowledge"
+    "pages/mine/handled/handled"
   ],
   "window": {
     "backgroundColor": "#F8F8F8",

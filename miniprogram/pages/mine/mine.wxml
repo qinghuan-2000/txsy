@@ -15,12 +15,12 @@
 
   </view>
   <view class="info-pages">
-    <view class="info">
+    <view class="info" bindtap="go_handled">
       <image class="info-icon1" src="../../images/mine/go.png" />
       <text class="info-text">已发货</text>
     </view>
     <view class="line"></view>
-    <view class="info">
+    <view class="info" bindtap="go_unhandled">
       <image class="info-icon2" src="../../images/mine/ungo.png" />
       <text class="info-text">已发货</text>
     </view>
@@ -28,7 +28,7 @@
   </view>
   </view>
   <view class="tool-pages">
-    <view class="toolpage">
+    <view class="toolpage" bindtap="go_intro">
       <view style="width:25px"></view>
       <image class="tool-icon" src="../../images/mine/introduction.png" />
       <view style="width:20px"></view>
@@ -36,7 +36,7 @@
       <view style="width:190px"></view>
       <image class="right" src="../../images/mine/right.png" />
     </view>
-    <view class="toolpage">
+    <view class="toolpage" bindtap="go_know">
       <view style="width:25px"></view>
       <image class="tool-icon" src="../../images/mine/knowlogde.png" />
       <view style="width:20px"></view>
@@ -44,7 +44,7 @@
       <view style="width:190px"></view>
       <image class="right" src="../../images/mine/right.png" />
     </view>
-    <view class="toolpage">
+    <view class="toolpage" bindtap="go_advice">
       <view style="width:25px"></view>
       <image class="tool-icon" src="../../images/mine/contact.png" />
       <view style="width:20px"></view>
