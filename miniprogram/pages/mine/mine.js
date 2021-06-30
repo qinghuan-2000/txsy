@@ -2,7 +2,8 @@ var app = getApp
 Page({
   data: {
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    root: true
+    root: true,
+    level:1
   },
 
   onLoad: function (options) {
